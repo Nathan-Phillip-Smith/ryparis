@@ -15,9 +15,8 @@
 }
 
 h1 {
-    font-size: 50px;
-    text-align: center;
-    margin-top: 120px;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 h2 {
@@ -58,7 +57,7 @@ header {
     align-items: center;
 }
 
-#nav {
+.nav {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -96,7 +95,7 @@ footer {
 
 /* index section one */
 
-#index-section-one {
+.index-section-one {
     background-image: url("../images/hero-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +107,7 @@ footer {
     margin-top: 5px;
     
 }
-#index-section-one-words {
+.index-section-one-words {
     background-color: var(--color-2);
     width:fit-content;
     height: fit-content;
@@ -121,17 +120,17 @@ footer {
 
 /* index section two */
 
-#index-section-two {
+.index-section-two {
     margin: 60px 120px;
 }
 
-#images {
+.images {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#index-section-two-imgs {
+.index-section-two-imgs {
     object-fit: cover;
     height: 250px;
     width: 350px;
@@ -142,18 +141,24 @@ footer {
 
 /* index section three */
 
-#index-section-three {
+#bengal-burger {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.index-section-three {
     height: fit-content;
     background-color: var(--color-3);
     padding: 20px 0;
 }
-#index-section-three-content {
+.index-section-three-content {
     margin: 60px 120px;
 }
-#recipe {
+.recipe {
     background-color: var(--color-2);
 }
-#index-section-three-imgs {
+.index-section-three-imgs {
     object-fit: cover;
     height: 200px;
     width: 250px;
@@ -164,15 +169,15 @@ footer {
 
 /* index section four */
 
-#index-section-four {
+.index-section-four {
     margin: 60px 120px;
 }
-#index-section-four-imgs {
+.index-section-four-imgs {
     object-fit: cover;
     height: 250px;
     width: 350px;
 }
-#index-section-four-img {
+.index-section-four-img {
     padding: 5px;
     background-color: var(--color-3);
 }
@@ -181,7 +186,7 @@ footer {
 
 /* recipe section one */
 
-#recipe-section-one {
+.recipe-section-one {
     background-image: url("../images/burg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +199,7 @@ footer {
     margin-top: 5px;
 }
 
-#recipe-section-one-words {
+.recipe-section-one-words {
     background-color: var(--color-2);
     width:fit-content;
     height: fit-content;
@@ -207,7 +212,7 @@ footer {
 
 /* recipe section two */
 
-#recipe-section-two {
+.recipe-section-two {
     background-color: var(--color-3);
     padding: 20px 120px;
 }
@@ -240,7 +245,7 @@ footer {
 .red {
     color: var(--color-5);
 }
-#rating {
+.rating {
     text-align: center;
     margin: 20px 0;
 }
@@ -249,14 +254,14 @@ footer {
     justify-content: center;
 }
 
-#print {
+.print {
     background-image: url(../images/print.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 40px;
     width: 40px;
 }
-#save {
+.save {
     color: white;
     background-color: var(--color-5);
     border: none;
@@ -268,7 +273,7 @@ footer {
 
 /* recipe section four */
 
-#recipe-section-four {
+.recipe-section-four {
     margin: 60px 120px 0;
     padding: 60px 120px;
     background-color: var(--color-4);
@@ -283,36 +288,36 @@ footer {
 
 /* section five */
 
-#recipe-section-five {
+.recipe-section-five {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 60px 120px;
 }
-#ingredients {
+.ingredients {
     width: 600px;
 }
-#directions {
+.directions {
     width: 600px;
 }
-#ingredients-list {
+.ingredients-list {
     font-size: 20px;
     font-weight: 300;
 }
-#ingredients-list-item {
+.ingredients-list-item {
     margin-bottom: 5px;  
 }
-#spice {
+.spice {
     margin-top: 40px;
 }
-#directions-list {
+.directions-list {
     font-size: 20px;
     font-weight: 300;
 }
-#directions-list-item {
+.directions-list-item {
     margin-bottom: 20px;
 }
-#timing {
+.timing {
     font-size: 20px;
 }
 
